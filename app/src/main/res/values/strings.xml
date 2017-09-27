@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SoccerRobot</string>
+    <string name="welcome_text">Welcome to Soccer Robot Game !</string>
+    <string name="start_game_button">Start Game</string>
+    <string name="canvas_desc">Gameplay below</string>
+    <string name="textAbout"><u>About</u></string>
 </resources>

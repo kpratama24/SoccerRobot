@@ -10,6 +10,7 @@
             android:id="@+id/text_welcome"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:maxLines="2"
             android:layout_centerInParent="true"
             android:textAlignment="center"
             android:textSize="22sp"
@@ -22,7 +23,6 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:layout_marginTop="16dp"
-            android:visibility="gone"
             android:background="@color/colorAccent"
             android:layout_below="@+id/text_welcome"
             android:text="@string/start_game_button"
@@ -42,5 +42,4 @@
             android:layout_alignParentBottom="true"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="16dp"/>
-
 </RelativeLayout>
