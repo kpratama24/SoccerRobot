@@ -6,10 +6,23 @@
     android:layout_height="match_parent"
     tools:context="com.nearkevin.soccerrobot.AboutActivity">
 
+    <ImageView
+        android:id="@+id/image_games"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@android:color/background_light"
+        android:src="@drawable/ic_games_black_24dp"
+        android:layout_centerInParent="true"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
         android:layout_centerInParent="true"
+        android:layout_below="@id/image_games"
+        android:paddingTop="8dp"
+        android:paddingStart="8dp"
+        android:paddingBottom="8dp"
+        android:paddingEnd="8dp"
         android:text="SOCCER GAME BY UNVISITEDLAB"
         android:textSize="18sp"
         android:textStyle="bold"
