@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.nearkevin.soccerrobot.gameActivity">
+    tools:context="com.nearkevin.soccerrobot.gameActivity"
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
@@ -14,5 +15,13 @@
         android:textAlignment="center"
         android:layout_marginTop="16dp"
         />
+
+    <ImageView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/ic_games_black_24dp"
+        android:layout_height="300dp" />
 
 </LinearLayout>
